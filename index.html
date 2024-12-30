@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="weather-dashboard">
+    <div class="search-container">
+      <select id="city-dropdown">
+        <option value="">Select a city</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Lucknow">Lucknow</option>
+        <option value="Nashik">Nashik</option>
+        <option value="London">London</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Solapur">Solapur</option>
+      </select>
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="weather-info">
+      <div class="city-name" id="city-name">City Name</div>
+      <div class="temperature" id="temperature">Temperature</div>
+      <div class="condition" id="weather-condition">Weather Condition</div>
+      <div class="weather-icon" id="weather-icon">Weather icon will be inserted here</div>
+      <div class="current-time" id="current-time">Current Time</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
