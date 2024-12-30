@@ -9,7 +9,7 @@
   }
   
   .weather-dashboard {
-    background: white;
+    background: linear-gradient(to right, #87CEEB, #00BFFF);;
     border-radius: 10px;
     padding: 20px;
     width: 320px;
